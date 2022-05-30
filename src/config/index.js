@@ -4,6 +4,8 @@ const env = process.env.REACT_APP_ENV;
 //details such as secret keys/envvironment are part of the env variables
 //In react, environment variables are set in the package.json file and start with REACT_APP_
 
+console.log(env);
+
 let config = {
   baseURL: "http://localhost/",
 };
